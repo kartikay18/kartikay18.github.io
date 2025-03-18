@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             matchYaarHeights();
         });
     });
-    
+
     // Call on window resize
     window.addEventListener('resize', matchYaarHeights);
     
