@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+        <meta name="author" content="Kartikay Goyle">
+        
+
+        <title>Kartikay Goyle</title>
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+        <!-- Open Graph / Social Media -->
+        <meta property="og:title" content="Kartikay Goyle">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://kartikay18.github.io/">
+        <meta property="og:image" content="https://kartikay18.github.io/assets/favicon/og-image.png">
+        
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Kartikay Goyle Engineer">
+        
+        <!-- Social Profiles -->
+        <link rel="me" href="https://github.com/kartikay18">
+        <link rel="me" href="https://devpost.com/kartikay">
+        
+        <!-- Additional Meta -->
+        <meta name="theme-color" content="#0366d6">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        
+        <!-- Preload Critical Resources -->
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+        
+        <!-- Security -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+        style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; 
+        script-src 'self' 'unsafe-inline'; 
+        img-src 'self' data: https: https://cdn.jsdelivr.net; 
+        font-src 'self' https://cdnjs.cloudflare.com;
+        media-src 'self' blob:;">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        <!-- <meta http-equiv="X-Frame-Options" content="SAMEORIGIN"> -->
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"></div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>  <!-- Add this line -->
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section in index.html -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Kartikay Goyle</h1>
+                <div class="hero-description">
+                    <div class="typing-container">
+                        <span class="typing"></span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:goylekartikay@gmail.com" class="social-icon" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/kartikay18" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://devpost.com/kartikay" class="social-icon" aria-label="Devpost">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <p>
+                    Software engineer with 6+ years of experience building and scaling high-performance distributed systems, 
+                    real-time data pipelines, and machine learning models from scratch. Co-founded a Y Combinator–backed quant firm, delivering sub-second trading pipelines and advanced risk 
+                    analytics for millions of daily market events. Published researcher in ML and quantitative finance.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            
+            <!-- <div class="education-card">
+                <div class="education-header">
+                    <div class="school-info">
+                        <div class="school-logo-wrapper">
+                            <img 
+                                src="assets/logos/education/uw.png" 
+                                alt="University of Washington Logo" 
+                                class="school-logo"
+                            >
+                        </div>
+                        <div class="school-details">
+                            <h3>University of Washington</h3>
+                            <h4>M.S. in Computational Finance, Department of Applied Mathematics</h4>
+                        </div>
+                    </div>
+                    <div class="timeline">2023 - 2026</div>
+                </div>
+                <div class="education-content">
+                </div>
+            </div> -->
+
+            <div class="education-card">
+                <div class="education-header">
+                    <div class="school-info">
+                        <div class="school-logo-wrapper">
+                            <img 
+                                src="assets/logos/education/uoft.png" 
+                                alt="University of Toronto Logo" 
+                                class="school-logo"
+                            >
+                        </div>
+                        <div class="school-details">
+                            <h3>University of Toronto</h3>
+                            <h4>Bachelor of Applied Science (B.A.Sc.) in Computer Engineering</h4>
+                        </div>
+                    </div>
+                    <div class="timeline">2014 - 2019</div>
+                </div>
+                <div class="education-content">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            
+            <!-- Saay Finance -->
+            <!-- Saay Finance -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="role-info">
+                        <div class="company-logo-wrapper">
+                            <img 
+                                src="assets/logos/companies/saay_finance.png" 
+                                alt="Saay Finance Logo" 
+                                class="company-logo"
+                            >
+                        </div>
+                        <div class="role-details">
+                            <h3>CEO & Co-Founder</h3>
+                            <h4>Saay Finance (Y Combinator W22)</h4>
+                        </div>
+                    </div>
+                    <div class="timeline"> 2022 - 2025</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-media-grid">
+                        <div class="video-container">
+                            <video 
+                                data-src="assets/demos/saay_finance/mobile_app.mp4"
+                                type="video/mp4"
+                                autoplay 
+                                loop 
+                                muted 
+                                playsinline
+                                class="demo-video">
+                            </video>
+                            <div class="video-caption">
+                                <h4>Mobile App built using React</h4>
+                                <p>Seamless onboarding, deposits, and portfolio management</p>
+                            </div>
+                        </div>
+                        <div class="video-container">
+                            <video 
+                                data-src="assets/demos/saay_finance/algo.mp4"
+                                data-playback-speed="15.0"
+                                type="video/mp4"
+                                autoplay 
+                                loop 
+                                muted 
+                                playsinline
+                                class="demo-video">
+                            </video>
+                            <div class="video-caption">
+                                <h4>Advanced Risk Analytics and hedging</h4>
+                                <p>Market hedging, stress testing, and Monte Carlo simulations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Founded a YC-backed quant investment platform, leveraging ML-based systematic trading</li>
+                        <li>Architected low-latency market data infrastructure processing 100M+ daily events, implementing distributed processing and automated failover</li>
+                        <li>Designed real-time ML feature engineering system generating macro, volatility, and momentum signals with sub-second latency</li>
+                        <li>Built comprehensive risk management system with scenario analysis and Monte Carlo simulations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CodeAssist -->
+            <!-- CodeAssist -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="role-info">
+                        <div class="company-logo-wrapper">
+                            <img 
+                                src="assets/logos/companies/codeassist.png" 
+                                alt="CodeAssist Logo" 
+                                class="company-logo"
+                            >
+                        </div>
+                        <div class="role-details">
+                            <h3>CTO & Co-Founder</h3>
+                            <h4>CodeAssist</h4>
+                        </div>
+                    </div>
+                    <div class="timeline"> 2020 - 2022</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-media-grid">
+                        <div class="video-container">
+                            <video 
+                                data-src="assets/demos/codeassist/completion_demo.mp4"
+                                autoplay 
+                                loop 
+                                muted 
+                                playsinline
+                                class="demo-video">
+                            </video>
+                            <div class="video-caption">
+                                <h4>Intelligent Code Completion</h4>
+                                <p>Context-aware code suggestions with 35% improvement over SOTA</p>
+                            </div>
+                        </div>
+                        <div class="video-container">
+                            <video 
+                                data-src="assets/demos/codeassist/features_demo.mp4"
+                                autoplay 
+                                loop 
+                                muted 
+                                playsinline
+                                class="demo-video">
+                            </video>
+                            <div class="video-caption">
+                                <h4>Advanced Features</h4>
+                                <p>Semantic search, debugging, command generation, and code summarization</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Built custom NLP architectures for code gen/debug (+35% improvement over SOTA)</li>
+                        <li>Designed distributed ML training pipeline processing 100GB+ of code</li>
+                        <li>Built VSCode and Atom extensions (1,000+ active users)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Yaar -->
+            <!-- Yaar section in index.html -->
+
+            <!-- Yaar -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="role-info">
+                        <div class="company-logo-wrapper">
+                            <img 
+                                src="assets/logos/companies/yaar.png" 
+                                alt="Yaar Logo" 
+                                class="company-logo"
+                            >
+                        </div>
+                        <div class="role-details">
+                            <h3>Software Engineer (ML)</h3>
+                            <h4>Yaar</h4>
+                        </div>
+                    </div>
+                    <div class="timeline"> 2019 - 2020</div>
+                </div>
+                <div class="experience-content">
+                    <div class="yaar-demo-container">
+                        <!-- Desktop interface on left -->
+                        <div class="yaar-desktop-view">
+                            <div class="desktop-frame">
+                                <div class="desktop-header">
+                                    <div class="desktop-controls">
+                                        <span class="control red"></span>
+                                        <span class="control yellow"></span>
+                                        <span class="control green"></span>
+                                    </div>
+                                </div>
+                                <div class="desktop-screen">
+                                    <video 
+                                        data-src="assets/demos/yaar/yaar_demo_calendar.mp4"
+                                        type="video/mp4"
+                                        autoplay 
+                                        loop 
+                                        muted 
+                                        playsinline
+                                        class="desktop-video">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- iPhone mockup on right -->
+                        <div class="yaar-mobile-view">
+                            <div class="iphone-mockup">
+                                <div class="iphone-notch"></div>
+                                <div class="iphone-screen">
+                                    <video 
+                                        data-src="assets/demos/yaar/mobile_app.mp4"
+                                        type="video/mp4"
+                                        autoplay 
+                                        loop 
+                                        muted 
+                                        playsinline
+                                        class="iphone-video">
+                                    </video>
+                                </div>
+                                <div class="iphone-home-indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Built & optimized NLP services (BERT + Transformers) for intent/entity detection (95% accuracy)</li>
+                        <li>Built a distributed task queue for concurrent automated workflows</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- NVIDIA -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="role-info">
+                        <div class="company-logo-wrapper">
+                            <img 
+                                src="assets/logos/companies/nvidia.png" 
+                                alt="NVIDIA Logo" 
+                                class="company-logo"
+                            >
+                        </div>
+                        <div class="role-details">
+                            <h3>Deep Learning Engineer (Intern)</h3>
+                            <h4>NVIDIA</h4>
+                        </div>
+                    </div>
+                    <div class="timeline"> 2018 - 2018</div>
+                </div>
+                <div class="experience-content">
+                    <ul class="achievement-list">
+                        <li>Developed domain adaptation techniques for autonomous driving</li>
+                        <li>Implemented style transfer and rejection sampling methods</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Symantec -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="role-info">
+                        <div class="company-logo-wrapper">
+                            <img 
+                                src="assets/logos/companies/symantec.jpg" 
+                                alt="Symantec Logo" 
+                                class="company-logo"
+                            >
+                        </div>
+                        <div class="role-details">
+                            <h3>Software Developer (Intern)</h3>
+                            <h4>Symantec (Acq. Broadcom)</h4>
+                        </div>
+                    </div>
+                    <div class="timeline"> 2017 - 2017</div>
+                </div>
+                <div class="experience-content">
+                    <ul class="achievement-list">
+                        <li>Automated CI/CD pipelines with Jenkins & Ansible, reducing build times by 40%</li>
+                        <li>Migrated from Vagrant to Docker for the Email Security Service team</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <!-- AutoNLP -->
+        <div class="project-card" data-category="ml">
+            <div class="project-header">
+                <h3>AutoNLP Platform</h3>
+                <span class="badge">Machine Learning</span>
+            </div>
+            <div class="project-media-grid">
+                <div class="video-container">
+                    <video 
+                        data-src="assets/demos/autonlp/cli_demo.mp4"
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline
+                        class="project-video">
+                    </video>
+                    <div class="video-caption">
+                        <h4>AutoNLP CLI Pipeline</h4>
+                        <p>End-to-end MLOps automation from model selection to deployment using CLI</p>
+                    </div>
+                </div>
+                <div class="video-container">
+                    <video 
+                        data-src="assets/demos/autonlp/text_classification.mp4"
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline
+                        class="project-video">
+                    </video>
+                    <div class="video-caption">
+                        <h4>Text Classification</h4>
+                        <p>End-to-end MLOps automation from model selection to deployment using GUI</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <p>End-to-end MLOps platform for automated model development and deployment</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-robot"></i> Automated feature engineering and model selection</li>
+                    <li><i class="fas fa-brain"></i> Model optimization and quantization</li>
+                    <li><i class="fas fa-cloud"></i> AWS deployment with monitoring</li>
+                    <li><i class="fas fa-chart-line"></i> Weights & Biases integration</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- DineOn -->
+        <div class="project-card" data-category="ui">
+            <div class="project-header">
+                <h3>DineOn</h3>
+                <span class="badge">UI/UX</span>
+            </div>
+            <div class="project-media-grid">
+                <div class="video-container">
+                    <video 
+                        data-src="assets/demos/dineon/customer_app.mp4"
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline
+                        class="project-video">
+                    </video>
+                    <div class="video-caption">
+                        <h4>Customer Mobile App</h4>
+                        <p>Contactless ordering and payment</p>
+                    </div>
+                </div>
+                <div class="video-container">
+                    <video 
+                        data-src="assets/demos/dineon/pos_app.mp4"
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline
+                        class="project-video">
+                    </video>
+                    <div class="video-caption">
+                        <h4>Restaurant POS System</h4>
+                        <p>Order management and analytics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <p>Contactless dining platform with integrated POS and customer mobile app</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-mobile-alt"></i> QR-based table ordering</li>
+                    <li><i class="fas fa-cash-register"></i> Real-time order management</li>
+                    <li><i class="fas fa-credit-card"></i> Integrated payments</li>
+                    <li><i class="fas fa-chart-bar"></i> Restaurant analytics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <!-- Languages -->
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="assets/icons/cpp.svg" alt="C++" />
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/python.svg" alt="Python" />
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/javascript.svg" alt="JavaScript" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/sql.svg" alt="SQL" />
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technologies -->
+            <div class="skill-category">
+                <h3>Technologies</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="assets/icons/pytorch.svg" alt="PyTorch" />
+                        <span>PyTorch</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/react.svg" alt="React" />
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/docker.svg" alt="Docker" />
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/kubernetes.svg" alt="Kubernetes" />
+                        <span>Kubernetes</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/aws.svg" alt="AWS" />
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/redis.svg" alt="Redis" />
+                        <span>Redis</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/kafka.svg" alt="Kafka" />
+                        <span>Kafka</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/mongodb.svg" alt="MongoDB" />
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/postgresql.svg" alt="PostgreSQL" />
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="assets/icons/git.svg" alt="Git" />
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/jenkins.svg" alt="Jenkins" />
+                        <span>Jenkins</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/ansible.svg" alt="Ansible" />
+                        <span>Ansible</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/prometheus.svg" alt="Prometheus" />
+                        <span>Prometheus</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/grafana.svg" alt="Grafana" />
+                        <span>Grafana</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/terraform.svg" alt="Terraform" />
+                        <span>Terraform</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="assets/icons/postman.svg" alt="Postman" />
+                        <span>Postman</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="skill-category">
+                <h3>Quantitative Finance</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <svg class="quant-icon" viewBox="0 0 24 24">
+                            <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7zm-4 6h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/>
+                        </svg>
+                        <span>Risk Modeling</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg class="quant-icon" viewBox="0 0 24 24">
+                            <path d="M4 19h16v2H4zm3-4h10v2H7zm0-4h10v2H7zm0-4h10v2H7zm-3 1h2V4h2v4h2V4h2v4h2V4h2v4h2V4h2v4h2v2H4z"/>
+                        </svg>
+                        <span>Monte Carlo Simulation</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg class="quant-icon" viewBox="0 0 24 24">
+                            <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/>
+                            <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z" transform="translate(0 3)"/>
+                        </svg>
+                        <span>Systematic Trading</span>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Publications Section -->
+<section id="publications" class="section">
+    <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div class="publications-grid">
+            <!-- Momentum Investing Overfitting Paper -->
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3>An Empirical Framework for Detecting Overfitting in Trading Strategies: A Case Study of Momentum Investing</h3>
+                    <p class="publication-meta">SSRN Preprint, 2025</p>
+                    <p class="authors">K. Goyle</p>
+                </div>
+                <div class="publication-links">
+                    <a href="https://ssrn.com/abstract=5331456" class="paper-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-external-link-alt"></i> View Paper
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Leveraged ETF Paper -->
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3>Comparative Analysis of Stochastic Models for Simulating Leveraged ETF Price Paths</h3>
+                    <p class="publication-meta">Journal of Mathematics and Modelling in Finance, 2025</p>
+                    <p class="authors">K. Goyle</p>
+                </div>
+                <div class="publication-links">
+                    <a href="https://doi.org/10.22054/jmmf.2025.83588.1162" class="paper-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-external-link-alt"></i> View Paper
+                    </a>
+                </div>
+            </div>
+
+            <!-- DataAssist Paper -->
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3>DataAssist: A Machine Learning Approach to Data Cleaning and Preparation</h3>
+                    <p class="publication-meta">Lecture Notes in Networks and Systems, Springer, 2024</p>
+                    <p class="authors">K. Goyle, Q. Xie, V. Goyle</p>
+                    <div class="publication-media dataassist-demo">
+                        <div class="video-container">
+                            <video 
+                                data-src="assets/demos/dataassist/dataprep.mp4"
+                                type="video/mp4"
+                                autoplay 
+                                loop 
+                                muted 
+                                playsinline
+                                class="demo-video">
+                            </video>
+                            <div class="video-caption">
+                                <h4>DataAssist Demo</h4>
+                                <p>Automated data cleaning and preparation using AI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1007/978-3-031-66431-1_33" class="paper-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-external-link-alt"></i> View Paper
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NMT Paper -->
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3>Neural Machine Translation For Low Resource Languages</h3>
+                    <p class="publication-meta">arXiv preprint, 2023</p>
+                    <p class="authors">V. Goyle, P. Krishnaswamy, K. Ravikumar, U. Chattopadhyay, K. Goyle</p>
+                    <div class="publication-links">
+                        <a href="https://arxiv.org/abs/2304.07869" class="paper-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-external-link-alt"></i> View Paper
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Histopathologic Paper -->
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3>Visualizing Histopathologic Deep Learning Classification and Anomaly Detection</h3>
+                    <p class="publication-meta">BMC Bioinformatics, 2018</p>
+                    <p class="authors">K. Faust, Q. Xie, D. Han, K. Goyle, et al.</p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1186/s12859-018-2184-4" class="paper-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-external-link-alt"></i> View Paper
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- <button class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button> -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
